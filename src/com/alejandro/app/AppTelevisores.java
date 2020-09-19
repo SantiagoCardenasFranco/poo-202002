@@ -9,6 +9,7 @@ import java.util.List;
 public class AppTelevisores {
     public static void main(String[] args) {
         Televisor tv = new Televisor();
+        Televisor tv2 = new Televisor();
 
 //        short variableControl = 1;
 //

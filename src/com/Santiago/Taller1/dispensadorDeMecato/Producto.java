@@ -53,19 +53,164 @@ public class Producto {
         }
     }
 
-    public String descripcion()
+    public String nombre()
     {
-        String descripcion = null;
+        String nombre = null;
 
         switch (nombre) {
             case "Cheetos" :
             {
-                descripcion = "Cheetos";
+                sacarMecato((byte) 1);
+                nombre = "Cheetos";
                 break;
             }
 
+            case "De Todito" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "De Todito";
+                break;
+            }
+
+            case "Chocorramo" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Chocorramo";
+                break;
+            }
+
+            case "Chpis" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Chpis";
+                break;
+            }
+
+            case "Gala" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Gala";
+                break;
+            }
+
+            case "Jumbo" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Jumbo";
+                break;
+            }
+
+            case "Almendras" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Almendras";
+                break;
+            }
+
+            case "Maní" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Maní";
+                break;
+            }
+
+            case "Choclitos" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Choclitos";
+                break;
+            }
+
+            case "Doritos" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "Doritos";
+                break;
+            }
+            default:
+                break;
         }
-        return descripcion;
+        return nombre;
+    }
+
+    public String codigo()
+    {
+        String codigo = null;
+
+        switch (codigo) {
+            case "A" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "A";
+                break;
+            }
+
+            case "B" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "B";
+                break;
+            }
+
+            case "C" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "C";
+                break;
+            }
+
+            case "D" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "D";
+                break;
+            }
+
+            case "E" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "E";
+                break;
+            }
+
+            case "F" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "F";
+                break;
+            }
+
+            case "G" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "G";
+                break;
+            }
+
+            case "H" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "H";
+                break;
+            }
+
+            case "I" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "I";
+                break;
+            }
+
+            case "J" :
+            {
+                sacarMecato((byte) 1);
+                nombre = "J";
+                break;
+            }
+            default:
+                break;
+        }
+        return nombre;
     }
 
     public boolean aumentarCantidad(byte valorAAgregar) {

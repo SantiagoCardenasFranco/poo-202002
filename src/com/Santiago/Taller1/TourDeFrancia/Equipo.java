@@ -20,4 +20,6 @@ public class Equipo {
     public byte getCantidadDeCorredores() {
         return cantidadDeCorredores;
     }
+
+
 }

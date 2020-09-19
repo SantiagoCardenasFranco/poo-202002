@@ -28,4 +28,5 @@ public class Corredor {
     public double getAltura() {
         return altura;
     }
+
 }

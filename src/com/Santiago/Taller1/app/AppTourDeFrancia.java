@@ -4,11 +4,6 @@ import com.Santiago.Taller1.TourDeFrancia.Corredor;
 import com.Santiago.Taller1.TourDeFrancia.Equipo;
 import com.Santiago.Taller1.TourDeFrancia.Tour;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-
 public class AppTourDeFrancia {
     public static void main(String[] args) {
         Corredor Corredor1 = new Corredor("Jaime", (byte) 18, 80, 180);
@@ -81,6 +76,7 @@ public class AppTourDeFrancia {
         Corredor Corredor28 = new Corredor("Denis", (byte) 21, 79, 181);
 
         Equipo equipo4 = new Equipo("Le monarque", (byte) 5);
+        equipo4.corredor.add(Corredor22);
         equipo4.corredor.add(Corredor23);
         equipo4.corredor.add(Corredor24);
         equipo4.corredor.add(Corredor25);
@@ -164,5 +160,15 @@ public class AppTourDeFrancia {
             System.out.println(tourDeFrancia.corredores.get(i + 2).getNombreDeCorredor());
         }
 
+        //Mi intento en realizar una organización teniendo en cuneta la edad, utilizando un ciclo for.
+        /*for (byte i = 0; i <= 35; i++){
+            if(tourDeFrancia.corredores.get(i).getEdad() <= 25)
+            {
+                System.out.println(tourDeFrancia.corredores.get(i).getNombreDeCorredor());
+            }
+            else{
+                break;
+            }
+        }*/
     }
 }
